@@ -57,3 +57,6 @@ spring:
     activate:
       on-profile: kubernetes
     import: configserver:http://config-server
+  cloud:
+    discovery:
+      enabled: false
