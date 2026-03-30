@@ -52,6 +52,8 @@ spring:
     import: configserver:http://config-server:8888
 
 ---
+server:
+  port: 8080
 spring:
   config:
     activate:
